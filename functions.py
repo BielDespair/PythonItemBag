@@ -1,6 +1,6 @@
 from data import Bag,Vazio
 
-class Operador(Bag):
+class Bag(Operador):
     def __init__(self,slots,peso_maximo):
         super().__init__(slots,peso_maximo)
 
