@@ -28,6 +28,6 @@ class Operador(Bag):
             self.representacao()
             
     def representacao(self):
-        print(f"Peso: {self.soma_peso()}\nSlots: {self.slots_disponiveis()}\n")
+        print(f"Peso Máximo: {self.soma_peso()}\nSlots: {self.slots_disponiveis()}\n")
         for index,item in enumerate(self.items):
             print(f'slot: {index+1}|{item}')
