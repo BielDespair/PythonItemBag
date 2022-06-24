@@ -11,7 +11,7 @@ class Operador(Bag):
         if slotfree and weightfree:
             index_vazio = self.retorna_index_vazio()
             self.items[index_vazio] = item
-            self.representacao();
+            self.representacao()
             print(f"Guardou {item} | Peso: {item.peso})
 
         elif(not slotfree):
@@ -25,6 +25,7 @@ class Operador(Bag):
             print("Ja é nulo")
         else:
             self.items[index-1] = Vazio()
+            self.representacao()
             
     def representacao(self):
         print(f"Peso: {self.soma_peso()}\nSlots: {self.slots_disponiveis()}\n")
