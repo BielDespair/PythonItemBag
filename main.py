@@ -10,7 +10,6 @@ remover = mochila.remover_item
 representacao = mochila.representacao
 
 guardar(espada)
-representacao()
 
 
 
