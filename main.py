@@ -7,7 +7,7 @@ mochila = Bag(10,60)
 
 guardar = mochila.guardar_item
 remover = mochila.remover_item
-representacao = sacola.representacao
+representacao = mochila.representacao
 
 sacola.guardar_item(espada)
 representacao()
