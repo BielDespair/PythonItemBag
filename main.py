@@ -1,4 +1,4 @@
-from functions import Operador
+from functions import Bag
 from item_data import lista
 
 
@@ -6,7 +6,7 @@ from item_data import lista
 sacola = Operador(10,60)
 
 guardar = sacola.guardar_item
-sacola.guardar_item(lista["Espada"])
+sacola.guardar_item(espada)
 
 sacola.representacao()
 guardar = sacola.guardar_item
