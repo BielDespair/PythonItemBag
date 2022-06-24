@@ -1,5 +1,5 @@
 from functions import Bag
-from item_data import lista
+from item_data import *
 
 
 
