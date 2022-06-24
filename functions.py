@@ -1,4 +1,4 @@
-from data import Bag,Vazio
+from data import Operador,Vazio
 
 class Bag(Operador):
     def __init__(self,slots,peso_maximo):
