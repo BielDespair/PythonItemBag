@@ -12,7 +12,7 @@ class Operador(Bag):
             index_vazio = self.retorna_index_vazio()
             self.items[index_vazio] = item
             self.representacao()
-            print(f"Guardou {item} | Peso: {item.peso})
+            print(f"Guardou {item} | Peso: {item.peso}")
 
         elif(not slotfree):
             print("SEM ESPAÇO")
