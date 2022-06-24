@@ -1,6 +1,6 @@
 from collections import Counter
 
-class Bag:
+class Operador:
     def __init__(self,slots,peso_maximo):  
         self.slots = slots
         self.peso_maximo = peso_maximo
