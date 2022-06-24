@@ -3,14 +3,15 @@ from item_data import lista
 
 
 
-sacola = Operador(10,60)
+mochila = Bag(10,60)
 
-guardar = sacola.guardar_item
+guardar = mochila.guardar_item
+remover = mochila.remover_item
+representacao = sacola.representacao
+
 sacola.guardar_item(espada)
+representacao()
 
-sacola.representacao()
-guardar = sacola.guardar_item
-remover = sacola.remover_item
 
 
 
