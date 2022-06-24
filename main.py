@@ -1,5 +1,5 @@
-from List_functions import Operador
-from Items import lista
+from functions import Operador
+from item_data import lista
 
 
 
