@@ -1,34 +1,36 @@
 # PythonItemBag
 Uma mochila de itens em Python, permite guardar e remover itens. A mochila possui slots e peso, que se excedidos impossibilita o armazenamento de mais itens.
 
-Para criar Itens, adicione a lista em item_data.
-Crie um Objeto Bag com propriedades de slots e peso em main.
+Os objetos item estão em item_data. Alguns já criados previamente:
 
-Execute executar.bat
+espada
+armadura
+adaga
+lixo
 
-Use nomeObjectBag.guardar_item(item) para guardar.
-Use nomeObjectBag.remover_item(index) para removêlo.
-Use nomeObjectBag.representacao() Para visualizar a bag.
-
-<hr> 
-
-
-Exemplo com items e bag já existentes:
-
-mochila.guardar_item(lista["Espada"]) 
-mochila.guardar_item(lista["Adaga"])  
-mochila.guardar_item(lista["Armadura"])
-
-Guarda os itens em um slot disponivel.
+Arquivos de testes estão em main. Pode criar um objeto bag com slots e peso.
+Pode executar com o execute.bat (possui apenas uma linha de código: python -i main.py)
 
 <hr>
 
-mochila.remover_item(1)
+Exemplos de uso que já estão inclusos em main:
 
-Remove o item do slot informado.
+guardar(espada)
+guardar(adaga)
+
+Guarda os itens em um slot disponível.
 
 <hr>
 
-mochila.representacao()
+remover(2)
+remover(1)
 
-Mostra o conteudo da bag.
+Remove o item no slot especificado
+
+<hr>
+
+representacao()
+
+Mostra o conteudo da mochila.
+
+
